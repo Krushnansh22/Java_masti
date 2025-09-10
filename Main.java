@@ -1,17 +1,17 @@
-class Box{
-    double height;
-    double width;
-    double depth;
+class Dabba{
+    double unchi;
+    double lambi;
+    double kholi;
 }
 public class Main{ 
 public static void main(String[] args){
     System.out.println("Hello World");
-    Box majha_dabbu = new Box();
+    Dabba majha_dabbu = new Dabba();
 
-    majha_dabbu.width = 10;
-    majha_dabbu.height = 20;
-    majha_dabbu.depth = 69;
+    majha_dabbu.lambi = 10;
+    majha_dabbu.unchi = 20;
+    majha_dabbu.kholi = 69;
 
-    System.out.println("आयतन: " + majha_dabbu.width*majha_dabbu.depth*majha_dabbu.height);
-}   
+    System.out.println("आयतन: " + majha_dabbu.lambi*majha_dabbu.kholi*majha_dabbu.unchi);
+}
 }
