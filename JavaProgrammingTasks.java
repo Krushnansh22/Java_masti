@@ -36,9 +36,9 @@ class NumberSwapper {
     // WAP to swap two numbers without using third variable
     public void swapWithoutThirdVariable(int a, int b) {
         System.out.println("Before swapping: a = " + a + ", b = " + b);
-        a = a + b;
-        b = a - b;
-        a = a - b;
+        a = a+b;
+        b = a-b;
+        a = a-b;
         System.out.println("After swapping: a = " + a + ", b = " + b);
     }
 }
